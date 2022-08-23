@@ -1,0 +1,28 @@
+{
+  "name": "tuntun-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "tuntun-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mylink": "npm link",
+    "myUnlink": "npm unlink -g tuntun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/tun_tun/tuntun-cli.git"
+  },
+  "author": "tuntun",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.0.1"
+  },
+  "bin": {
+    "tuntun": "bin/index.js"
+  }
+}

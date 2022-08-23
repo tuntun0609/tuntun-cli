@@ -24,6 +24,12 @@ export const promptList = [
     message: '你的项目版本号为',
     default: '0.1.0',
   },
+  {
+    type: 'input',
+    name: 'description',
+    message: '你的项目描述',
+    default: '',
+  },
   // {
   //   type: 'list',
   //   name: 'language',

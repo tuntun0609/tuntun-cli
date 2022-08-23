@@ -40,6 +40,10 @@ const changePackage = async (options) => {
     data.author = options.author;
     data.version = options.version;
     data.name = options.name;
+    data.description = options.description;
+    delete data.bugs;
+    delete data.repository;
+    delete data.homepage;
 
     // 重写package.json文件，初始化仓库
     try {
